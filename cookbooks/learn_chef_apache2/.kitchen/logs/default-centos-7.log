@@ -1,0 +1,9 @@
+I, [2018-04-10T05:36:36.190303 #23254]  INFO -- default-centos-7: -----> Creating <default-centos-7>...
+I, [2018-04-10T05:36:37.689896 #23254]  INFO -- default-centos-7: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2018-04-10T05:36:37.859612 #23254]  INFO -- default-centos-7: ==> default: Box 'bento/centos-7' could not be found. Attempting to find and install...
+I, [2018-04-10T05:36:37.860400 #23254]  INFO -- default-centos-7:     default: Box Provider: virtualbox
+I, [2018-04-10T05:36:37.860692 #23254]  INFO -- default-centos-7:     default: Box Version: >= 0
+I, [2018-04-10T05:36:40.833352 #23254]  INFO -- default-centos-7: ==> default: Loading metadata for box 'bento/centos-7'
+I, [2018-04-10T05:36:40.833683 #23254]  INFO -- default-centos-7:     default: URL: https://vagrantcloud.com/bento/centos-7
+I, [2018-04-10T05:36:42.219597 #23254]  INFO -- default-centos-7: ==> default: Adding box 'bento/centos-7' (v201803.24.0) for provider: virtualbox
+I, [2018-04-10T05:36:42.224351 #23254]  INFO -- default-centos-7:     default: Downloading: https://vagrantcloud.com/bento/boxes/centos-7/versions/201803.24.0/providers/virtualbox.box

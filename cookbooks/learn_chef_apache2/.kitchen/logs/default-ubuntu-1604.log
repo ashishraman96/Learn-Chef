@@ -1,0 +1,5 @@
+I, [2018-04-10T06:43:02.917340 #28528]  INFO -- default-ubuntu-1604: <html>
+I, [2018-04-10T06:43:02.918719 #28528]  INFO -- default-ubuntu-1604:   <body>
+I, [2018-04-10T06:43:02.921492 #28528]  INFO -- default-ubuntu-1604:     <h1>hello world</h1>
+I, [2018-04-10T06:43:02.921565 #28528]  INFO -- default-ubuntu-1604:   </body>
+I, [2018-04-10T06:43:02.921598 #28528]  INFO -- default-ubuntu-1604: </html>

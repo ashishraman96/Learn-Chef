@@ -1,0 +1,30 @@
+I, [2018-04-10T06:07:29.336931 #26432]  INFO -- Kitchen: -----> Starting Kitchen (v1.16.0)
+E, [2018-04-10T06:07:29.337492 #26432] ERROR -- Kitchen: ------Exception-------
+E, [2018-04-10T06:07:29.337557 #26432] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2018-04-10T06:07:29.337625 #26432] ERROR -- Kitchen: Message: Kitchen YAML file /home/ubuntu/Learn-Chef/cookbooks/learn_chef_apache2/.kitchen/kitchen-vagrant/kitchen-learn_chef_apache2-default-ubuntu-1604/.kitchen.yml does not exist.
+E, [2018-04-10T06:07:29.337678 #26432] ERROR -- Kitchen: ----------------------
+E, [2018-04-10T06:07:29.337729 #26432] ERROR -- Kitchen: ------Backtrace-------
+E, [2018-04-10T06:07:29.337779 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/loader/yaml.rb:71:in `read'
+E, [2018-04-10T06:07:29.337832 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:152:in `data'
+E, [2018-04-10T06:07:29.337882 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:131:in `suites'
+E, [2018-04-10T06:07:29.337930 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2018-04-10T06:07:29.337977 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2018-04-10T06:07:29.338026 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:117:in `instances'
+E, [2018-04-10T06:07:29.338081 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2018-04-10T06:07:29.338128 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2018-04-10T06:07:29.338178 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command/action.rb:35:in `block in call'
+E, [2018-04-10T06:07:29.338227 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-04-10T06:07:29.338274 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command/action.rb:34:in `call'
+E, [2018-04-10T06:07:29.338322 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:53:in `perform'
+E, [2018-04-10T06:07:29.338371 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:187:in `block (2 levels) in <class:CLI>'
+E, [2018-04-10T06:07:29.338422 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2018-04-10T06:07:29.338469 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2018-04-10T06:07:29.338515 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:334:in `invoke_task'
+E, [2018-04-10T06:07:29.338566 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2018-04-10T06:07:29.338615 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2018-04-10T06:07:29.338661 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2018-04-10T06:07:29.338707 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2018-04-10T06:07:29.338753 #26432] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.16.0/bin/kitchen:13:in `<top (required)>'
+E, [2018-04-10T06:07:29.338809 #26432] ERROR -- Kitchen: /usr/bin/kitchen:263:in `load'
+E, [2018-04-10T06:07:29.338862 #26432] ERROR -- Kitchen: /usr/bin/kitchen:263:in `<main>'
+E, [2018-04-10T06:07:29.338912 #26432] ERROR -- Kitchen: ----End Backtrace-----
