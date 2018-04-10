@@ -1,0 +1,29 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  # You may wish to disable always updating cookbooks in CI or other testing environments.
+  # For example:
+  #   always_update_cookbooks: <%= !ENV['CI'] %>
+  always_update_cookbooks: true
+  http_proxy: http://172.18.192.4:8080
+  https_proxy: http://172.18.192.4:8080
+  no_proxy: localhost,127.0.0.1,172.18.192.100,172.18.192.0/18,172.18.201.139,
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: ubuntu-16.04
+#  - name: centos-7.3
+
+suites:
+  - name: default
+    run_list:
+      - recipe[webserver_test::default]
+    verifier:
+      inspec_tests:
+        - test/smoke/default
+    attributes:
